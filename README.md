@@ -39,9 +39,9 @@ Loader gives you an event. If you need one that does not exist, ask for it (see 
 
 ## Quick start with Gradle
 
-You need **Java 17 or newer** to run Gradle and **Minecraft 1.8.9** installed. If you have never played 1.8.9, the
+You need **Java 25 or newer** and **Minecraft 1.8.9** installed. If you have never played 1.8.9, the
 SDK downloads the game from Mojang, the same way the launcher does. Nothing else to install: the Gradle wrapper
-downloads Gradle, and the template downloads **JDK 25** for compiling if you do not have it.
+downloads Gradle.
 
 Your mod is **Java 25**, not the Java 8 of Forge mods: it compiles with `--release 25`, and records, sealed types,
 pattern matching in `switch`, text blocks and `var` all work in game.
